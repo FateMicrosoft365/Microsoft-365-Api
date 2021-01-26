@@ -137,7 +137,7 @@ ________________________________________________
    
    （不确定是否都需要进行这一步，我自己做视频教程的时候发现有的。如果你没有，直接忽略并往下进行，能正常运行就可以了 ）
    
-   * 2）点击两次右上角的星星（star，就是fork按钮的隔壁）启动action，再点击上面的Action，选择Auto Api Pro 就能看到每次的运行日志，看看运行状况
+   * 2）点击两次右上角的星星（star，就是fork按钮的隔壁）启动action，再点击上面的Action选择Auto Api Pro流程 -> build -> runapi 就能看到每次的运行日志，看看运行状况
 
    （必需点进去build里面的run api看下，api有没有调用到位，有没有出错。外面的Auto Api打勾只能说明运行是正常的，我们还需要确认api调用成功了，就像图里的一样）
    
@@ -145,7 +145,8 @@ ________________________________________________
    ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/日志.png)
      
    * 3）再点两次星星，查看是否能再次成功运行
- 
+   
+        然后点击Action里的 update token 流程 -> build -> update token ，日志里显示“微软密钥上传成功”。
         同时，依次点击页面上栏右边的 Setting -> 左栏 Secrets（也就是Github方面准备的第三步的secret页面），应该能看到MS_TOKEN显示刚刚update了
         
         （这一步是为了保证重新上传到secret的token是正确的）
